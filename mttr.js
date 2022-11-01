@@ -62,5 +62,5 @@ function enviarDatos() {
   console.log("fecha inicio id " + fechainicioid);
   console.log(fechafinid);
   console.log("año " + fechainicio);
-  calculo();
+  //calculo();
 }
