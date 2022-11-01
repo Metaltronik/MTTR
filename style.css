@@ -1,0 +1,128 @@
+h1 {
+    color: white
+}
+h2 {
+    color: white
+}
+
+p {
+    color: white
+}
+.colorText
+{
+    color:white
+}
+a {
+  color:white
+}
+table 
+{
+text-align: center;
+}
+
+input 
+{
+    border: 3px solid #284D4D; padding: 10px;
+    background-color: #112525;
+    border-radius: 4px;
+    color:white;
+    
+}
+select 
+{
+    border: 3px solid #284D4D; padding: 10px;
+    background-color: #112525;
+    border-radius: 4px;
+    color:white;
+    
+}
+
+button
+{
+     
+    border: 3px solid #284D4D; padding: 10px;
+    border-radius: 4px;
+    background-color: #112525;
+    color:white;
+}
+
+tr {
+    margin: 30px;
+    padding: 10px;
+    background-color: #112525;
+  }
+
+  td {
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid #284D4D;
+    border-radius: 4px;
+    background-color: #112525;
+    
+  }
+
+  table {
+    margin: 15px;
+    padding: 15px;
+  }
+  textarea {
+    width:500px; height: 400px;
+    background-color: #112525;
+    color:white;
+  }
+.imgprincipal
+{
+    display: inline-block; width:100%; height: 80%;
+}
+.imgaux
+{
+    display: inline-block; width:80%; height: 80%;
+}
+
+.imgservicios
+{
+    display: inline-block; width:80%; height: 80%;
+}
+
+.DivContenedor 
+{
+    position: relative;
+    background-color: #112525;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
+
+  .flex-container
+  {
+    display: flex;
+    justify-content:space-around; 
+    background-color: #112525;
+    text-align: center;
+    flex-direction: row;
+  }
+  .texto-encima{
+    position: absolute;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3px;
+    background-color: #112525;
+    color: white;
+  }
+  .containerColumn {
+    flex-direction: column;
+    display: flex;
+    background-color: #112525;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+  }
