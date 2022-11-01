@@ -28,10 +28,10 @@ function st() {
     document.getElementById("dias").innerHTML = time.days + "d ";
     document.getElementById("horas").innerHTML = time.hours + "h ";
     document.getElementById("minutos").innerHTML = time.minutes + "m ";
-    document.getElementById("minutosTotales").innerHTML =  time.totalMinutes + " minutos totales";
-    document.getElementById("hsMtto").innerHTML = "horas mantenimiento " + time2.horas + ":" + time2.minutos;
-    document.getElementById("mttrm").innerHTML =  mttr + " Tiempo medio de reparación (minutos)";
-    document.getElementById("mttrhh").innerHTML = "Tiempo medio de reparación (horas) " + time3.horas + ":" + time3.minutos;
+    document.getElementById("minutosTotales").innerHTML =  time.totalMinutes;
+    document.getElementById("hsMtto").innerHTML = time2.horas + ":" + time2.minutos;
+    document.getElementById("mttrm").innerHTML =  mttr ;
+    document.getElementById("mttrhh").innerHTML =  time3.horas + ":" + time3.minutos;
    
 }
 

@@ -28,6 +28,15 @@ input
     color:white;
     
 }
+output 
+{
+    border: 3px solid #284D4D; padding: 10px;
+    background-color: #112525;
+    border-radius: 4px;
+    color:rgb(255, 255, 255);
+    font-family: Helvetica; 
+    
+}
 select 
 {
     border: 3px solid #284D4D; padding: 10px;
@@ -47,14 +56,14 @@ button
 }
 
 tr {
-    margin: 30px;
-    padding: 10px;
+    margin: 60px;
+    padding: 20px;
     background-color: #112525;
   }
 
   td {
-    margin: 30px;
-    padding: 10px;
+    margin: 60px;
+    padding: 20px;
     border: 3px solid #284D4D;
     border-radius: 4px;
     background-color: #112525;

@@ -5,45 +5,85 @@
 <head>
   <title>Metaltronik</title>
   <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <!-- esto es un comentario-->
 
 <body>
-
-<div class="form-group">
-    <p>fecha de inicio </p>
-      <input id="sdt" value="" type="datetime-local" class="form-control" name="Sdt">
-  </div>
-
-  <div class="form-group">
-    <p>fecha de finalización</p>
-      <input id="edt" value="" type="datetime-local" class="form-control" name="Edt">
-  </div>
-  <div class="form-group">
-    <p>fecha de finalización</p>
-      <input id="numbercorrectivo" value="5" type="number" class="form-control" name="numbercorrectivo">
-  </div>
-
-  <input id="btnAdded"  onclick="st()" type="button" class="btn btn-primary btn-block" name="sub" value="Start" style="width:100px;width:100px; margin-left:10px;display:flex;justify-content: center;border-radius: 20px;">
-  <div class="form-group">
-  <p id="demo" style="text-align: center;font-size: 60px;margin-top: 0px; margin-left: 170px;float: left;"></p>
-</div>
-
-   <p id="dias" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   <p id="horas" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   <p id="minutos" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   <p id="minutosTotales" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   <div class="form-group"> 
-    <p id="hsMtto" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   </div>
-   <div class="form-group"> 
-    <p id="mttrm" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   </div>
-   <div class="form-group"> 
-    <p id="mttrhh" style="text-align: center;font-size: 30px;margin-top: 0px; margin-left: 85px;float: left;"></p>
-   </div>
   
+    <div class="flex-container">
+      <table>
+        <colgroup span="8"></colgroup>
+        <tr>
+        <th class="colorText"> <p>fecha de inicio </p> </th>
+        <th class="colorText"><input id="sdt" value="" type="datetime-local" class="form-control" name="Sdt"></th>
+        <th class="colorText">  <p>fecha de finalización</p> </th>
+        <th class="colorText"> <input id="edt" value="" type="datetime-local" class="form-control" name="Edt"> </th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th class="colorText">  <p>Cantidad de correctivos </p> </th>
+        <th class="colorText"> <input id="numbercorrectivo" value="0" type="number" class="form-control" name="numbercorrectivo"></th>
+        <th class="colorText"><input id="btnAdded"  onclick="st()" type="button" class="btn btn-primary btn-block" name="sub" value="Start"></th>
+        <th class="colorText"></th>
+
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+
+        <th class="colorText"><output id ="demo" type ="text" size="20"> 0d 0HH 0MM </output> </th>
+        <th class="colorText">  <output id="dias" size="20"> 0d</output></th>
+        <th class="colorText"> <output id="horas" size="20">0h</output></th>
+        <th class="colorText"> <output id="minutos" size = "20">0m</output></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th class="colorText"><p>minutos totales</p></th>
+        <th class="colorText"><p> horas de mantenimiento</p></th>
+        <th class="colorText"><p>Tiempo medio de reparación (MM)</p></th>
+        <th class="colorText"><p>Tiempo medio de reparación (HH)</p></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th></th>
+      </tr>
+      <tr>
+        <th class="colorText"> <output id="minutosTotales" >00</output></th>
+        <th class="colorText">    <output id="hsMtto">00:00</output></th>
+        <th class="colorText"> <output id="mttrm" >00</output></th>
+        <th class="colorText"><output id="mttrhh">00:00</output></th>
+      </tr>
+
+      
+    </table>
+    </div>
+    <div class="flex-container">
+      <img src="seguridad-informatica-1024x439.jpeg" class="imgaux">
+    </div>
+    
+
    <script src="mttr.js"></script>
+  
 </body>
 
 </html>
