@@ -50,16 +50,16 @@ console.log(calcularHorasMinutos(minutosMttr)); // {horas: 2, minutos: 3}
 }
 
 var btnEnviar = document.getElementById('btnEnviar');
-btnEnviar === null || btnEnviar === void 0 ? void 0 : btnEnviar.addEventListener("click", captcha);
+btnEnviar === null || btnEnviar === void 0 ? void 0 : btnEnviar.addEventListener("click", enviarDatos);
 var fechainicio;
-function captcha() {
+function enviarDatos() {
 
   var fechainicioid = document.getElementById('fechainicioid').value;
   fechainicio = document.getElementById('fechainicioid').value;
   var fechafinid = document.getElementById('fechafinid').value;
   fechainicio = document.getElementById('fechafinid').value;
   
-  console.log(fechainicioid);
+  console.log("fecha inicio id " + fechainicioid);
   console.log(fechafinid);
   console.log("año " + fechainicio);
   calculo();
